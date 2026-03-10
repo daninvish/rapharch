@@ -298,6 +298,9 @@ p {
     border-radius: 8px;
     
 }
+.address-menu h2{
+    font-size: 18px;
+}
 .address-menu p i{
     font-size: 40px;
      color: #003977;
@@ -843,4 +846,5 @@ p {
 }
 
     
+
 
