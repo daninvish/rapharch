@@ -434,6 +434,9 @@ p {
 .message-section{
     padding: 25px;
 }
+    .heading h2{
+    font-size: 18px;
+}
 
 .links{
     flex-direction: column;
@@ -836,4 +839,5 @@ p {
     }
 
 }
+
     
