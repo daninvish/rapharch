@@ -55,12 +55,18 @@ header .logo h2{
     text-align: center;
 }
 
+header .logo img{
+  width: 70px;
+  height: 70px;
+}
+
 /*  NAVIGATION STYLING */
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin-right: 20px; */
 }
 
 /* Hide close icon initially */
@@ -1054,6 +1060,14 @@ footer{
   width: 500px;
   line-height: 35px;
 }
+
+.about-com .i-h2{
+  display: flex;
+}
+  .about-com img{
+    width: 70px;
+    height: 70px;
+  }
 .right{
   margin-top: 30px;
   text-align: center;
@@ -1078,6 +1092,7 @@ footer{
   .about-com {
     width: 100%;
   }
+
 
   .useful-links,
   .contacts {
