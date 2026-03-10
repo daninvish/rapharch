@@ -1,14 +1,16 @@
-// basic interactivity for the site
-
-// toggle mobile navigation
-const menuToggle = document.querySelector('.menu-toggle');
+const menuIcon = document.querySelector('.menu-icon');
+const closeIcon = document.querySelector('.close-icon');
 const navLinks = document.querySelector('.nav-links');
 
-if (menuToggle && navLinks) {
-    menuToggle.addEventListener('click', () => {
-        navLinks.classList.toggle('show');
-    });
+function toggleMenu() {
+  navLinks.classList.toggle('nav-active');
+  menuIcon.classList.toggle('hidden');
+  closeIcon.classList.toggle('hidden');
 }
+
+menuIcon.addEventListener('click', toggleMenu);
+closeIcon.addEventListener('click', toggleMenu);
+
 
 // simple form validation and submission handling
 const contactForm = document.querySelector('form');
@@ -76,3 +78,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
