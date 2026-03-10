@@ -102,7 +102,7 @@ const swipers = new Swiper('.swiper', {
     breakpoints: {
       448:{
       slidesPerView: 1,
-      spaceBetween: 20
+      // spaceBetween: 20
       },
     768: {
       slidesPerView: 2,
@@ -166,6 +166,4 @@ counters.forEach(counter => {
     };
 
     updateCounter();
-
 });
-
