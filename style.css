@@ -298,9 +298,6 @@ p {
     border-radius: 8px;
     
 }
-.address-menu h2{
-    font-size: 18px;
-}
 .address-menu p i{
     font-size: 40px;
      color: #003977;
@@ -339,9 +336,12 @@ p {
 }
 
 .address-menu{
-    width: 100%;
+   width: 100%;
+  
 }
-
+.address-menu h2{
+    font-size: 18px;
+}
 }
 
 /* message-container */
@@ -436,6 +436,7 @@ p {
 
 .message-section{
     padding: 25px;
+}
  .heading h2 {
         width: 100%;
         text-align: left;
@@ -844,7 +845,4 @@ p {
     }
 
 }
-
     
-
-
