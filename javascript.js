@@ -72,7 +72,7 @@ const swipers = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-   slidesPerView: 2,
+   slidesPerView: 1,
     spaceBetween: 30,
     autoplay: {
         delay: 6000,
@@ -168,3 +168,4 @@ counters.forEach(counter => {
     updateCounter();
 
 });
+
