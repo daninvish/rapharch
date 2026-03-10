@@ -433,10 +433,12 @@ p {
 
 .message-section{
     padding: 25px;
-}
-    .heading h2{
-    font-size: 18px;
-}
+ .heading h2 {
+        width: 100%;
+        text-align: left;
+        /* color: red; */
+        font-size: 1rem;
+    }
 
 .links{
     flex-direction: column;
@@ -841,3 +843,4 @@ p {
 }
 
     
+
