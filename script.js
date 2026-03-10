@@ -1,15 +1,3 @@
-const menuIcon = document.querySelector('.menu-icon');
-const closeIcon = document.querySelector('.close-icon');
-const navLinks = document.querySelector('.nav-links');
-
-function toggleMenu() {
-  navLinks.classList.toggle('nav-active');
-  menuIcon.classList.toggle('hidden');
-  closeIcon.classList.toggle('hidden');
-}
-
-menuIcon.addEventListener('click', toggleMenu);
-closeIcon.addEventListener('click', toggleMenu);
 
 
 // simple form validation and submission handling
@@ -78,4 +66,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
 
