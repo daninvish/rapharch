@@ -2,17 +2,14 @@ const menuIcon = document.querySelector('.menu-icon');
 const closeIcon = document.querySelector('.close-icon');
 const navLinks = document.querySelector('.nav-links');
 
-menuIcon.addEventListener('click', () => {
-    navLinks.classList.add('nav-active');
-    menuIcon.style.display = 'none';
-    closeIcon.style.display = 'block';
-});
+function toggleMenu() {
+  navLinks.classList.toggle('nav-active');
+  menuIcon.classList.toggle('hidden');
+  closeIcon.classList.toggle('hidden');
+}
 
-closeIcon.addEventListener('click', () => {
-    navLinks.classList.remove('nav-active');
-    menuIcon.style.display = 'block';
-    closeIcon.style.display = 'none';
-});
+menuIcon.addEventListener('click', toggleMenu);
+closeIcon.addEventListener('click', toggleMenu);
 
 
 const swipers = new Swiper('.swiper', {
@@ -169,4 +166,5 @@ counters.forEach(counter => {
     };
 
     updateCounter();
+
 });
